@@ -11,7 +11,7 @@ export default function Home() {
       <div className="fixed inset-x-0 top-0 ">
         <Home_header />
       </div>
-      <div className="absolute inset-0 top-[106px]">
+      <div className=" inset-0 top-[106px]">
         <Home_body />
       </div>
       <div className="fixed inset-x-0 bottom-0">
