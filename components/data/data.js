@@ -32,7 +32,7 @@ export const advisories_list = [
   "Ubuntu",
   "Oracle",
 ];
-export const How_list = [
+export const how_list = [
   "Harden My Filesystem",
   "Learn Teaps And Tricks",
   "Secure My E-mail",

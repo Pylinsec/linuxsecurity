@@ -1,7 +1,10 @@
 import react from "react";
 export default function Home_body() {
   return (
-    <main className="bg-red-200 min-w-[500px] h-full px-[15px] ">
+    <main
+      className=" min-w-[500px] px-[15px] bg-red-300
+    "
+    >
       <h1>this is home_body</h1>
       <h1>this is home_body</h1>
       <h1>this is home_body</h1>
