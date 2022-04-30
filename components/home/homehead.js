@@ -12,6 +12,7 @@ import Linkdin_svg from "../../assets/svg/linkedinfooter";
 
 export default function Home_header() {
   const [Menu, Set_menu] = useState(false);
+
   //local function
   const Handel_menu = () => {
     Set_menu(prev => !prev);
@@ -22,7 +23,9 @@ export default function Home_header() {
         <button onClick={Handel_menu}>
           <Menu_svg />
         </button>
-        <div className=" z-10">{Menu && <Menu_list />}</div>
+        <div className=" z-10">
+          {Menu && <Menu_list close_menu={Set_menu} />}
+        </div>
         <div>
           <img
             className="pt-[-50px] h-[101px] w-[92px] mt-[10px] ml-[5px]"
